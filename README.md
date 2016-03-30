@@ -32,6 +32,13 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 ```
 
+## TODO
+
+```
+var image = new PhotoScript(document.querySelector('img.filterme'));
+image.selectArea(0,0,50,100).sharpen().selectArea(50,0,100,100).invert().show();
+```
+
 # References and Sources
 
 ### [auto-color-level](https://github.com/ajfarkas/auto-color-level)
